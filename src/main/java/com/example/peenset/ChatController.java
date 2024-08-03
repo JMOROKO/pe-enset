@@ -70,8 +70,4 @@ public class ChatController {
                 .call()
                 .entity(new ParameterizedTypeReference<List<Team>>() {});
     }
-    @GetMapping(value = "/test")
-    public String test(){
-        return "je suis le test";
-    }
 }
